@@ -1,0 +1,653 @@
+/* إعدادات إعادة التعيين العامة والخلفية */
+
+
+body {
+    background-color: #19191B; /* اللون الداكن من الفيجما */
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 955.7140502929688;
+    height: 2942.13916015625;
+    top: -1196px;
+    left: -463px;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+
+/* الحاوية العامة لضبط العرض وتوسيط المحتوى في وسط الشاشة */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* --- 1. الشريط العلوي (Header) --- */
+.header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
+    top: 27.55px;
+    left:79.64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #FFFFFF;
+}
+
+/* زر Contact us العلوي */
+.btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 104px;
+    height: 29px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 11px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: #5454D4;
+    border-color: #5454D4;
+}
+
+/* --- 2. القسم الرئيسي (Hero Section) --- */
+
+
+.hero {
+    padding-top: 60px;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+/* صندوق النصوص الأيسر */
+.hero-content {
+    max-width: 420px;
+}
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 56px;
+    color: #FFFFFF;
+   
+}
+
+.hero-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 30px;
+}
+
+/* زر Our Services */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #5454D4;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4242bc;
+}
+
+/* صندوق الصورة والأشكال اليمنى */
+.hero-image {
+    position: relative;
+    width: 435px;
+    height: 473px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-image{
+    position: relative;
+    margin-left:0%;
+}
+.hero-image img.youn-image {
+    position: relative;
+    z-index: 3;
+    width: 340.62px;
+    height: 430.82px;
+}
+
+/* المربع المائل خلف صورة الشاب */
+.rotated-box {
+    position: absolute;
+    width: 249.11px;
+    height: 249.11px;
+    top:171.9;
+    left:532.42;
+    z-index: 1;
+    border-radius: 14.72px;
+    border: 1.3px solid #FFFFFF;
+    transform: rotate(23.64deg);
+    
+}
+.rotated-purple-box{
+
+    position: absolute;
+    width: 249.11px;
+    height: 249.11px;
+    background-color: #5454D4; 
+    border: 2.65px solid #FFFFFF;
+    border-radius: 14.72px;
+    transform: rotate(23.64deg); 
+    z-index: 1; 
+    top: 33%;
+    left: 22%;
+    z-index: 2;
+}
+.plus-box {
+    position: absolute;
+    width: 33.18px;
+    height: 33.18px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    z-index: 4;
+   
+    bottom: 18%;
+    right: 5%;
+}
+.vector-zigzag-top {
+    display: block;
+    width: 63.05px;
+    height: 18.58px;
+    margin-bottom: 20px;
+    margin-left:100%;
+}
+.group-top{
+width: 69.4637451171875;
+height: 79.68743133544922;
+top: 442.02px;
+margin-left: 410.21px;
+angle: 0 deg;
+opacity: 1;
+
+}
+.circles-icon {
+    position: absolute !important;
+    width: 33.85px !important;
+    height: 39.82px !important;
+    z-index: 4 !important;
+    top: 8% !important;
+    left: 65% !important;
+    transform: translate(0px, 0px) !important; 
+}
+/* --- قسم Why Enver Is The Best Choice --- */
+
+.why-us {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+/* الجزء العلوي (العنوان والنص) */
+.why-us-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+/* العنوان الرئيسي بناءً على بيانات Figma */
+/* Graphik Regular (Weight 400) */
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/Graphik-Regular.woff2') format('woff2'),
+         url('fonts/Graphik-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Graphik Bold (Weight 700) */
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/Graphik-Bold.woff2') format('woff2'),
+         url('fonts/Graphik-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+.why-us-title {
+    font-family: 'Graphik', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 39.87px; /* 39.87px من Figma */
+    line-height: 45.46px; /* 45.46px من Figma */
+    color: #FFFFFF;
+    max-width: 390.25px; /* Width من Figma */
+    margin: 0;
+}
+
+/* النص الوصفي الأيمن بناءً على بيانات Figma */
+.why-us-description {
+    font-family: 'Nunito Sans', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13.94px; /* 13.94px من Figma */
+    line-height: 25.88px; /* 25.88px من Figma */
+    letter-spacing: -0.44px;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 390.25px; /* Width من Figma */
+    margin: 0;
+}
+
+/* --- حاوية الفيديو والصورة --- */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 796.43px; /* Width الكلي للـ BG من Figma */
+    height: 444.67px;    /* Height من Figma */
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* زر الـ Play بنفس لون التصميم (البنفسجي) */
+.play-btn {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: #5454D4; /* نفس البنفسجي المعتمد */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 10px 25px rgba(84, 84, 212, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index: 2;
+}
+
+.play-btn:hover {
+    transform: scale(1.1);
+    background-color: #4242bc;
+}
+
+.play-btn svg {
+    margin-left: 4px; /* لضبط محاذاة أفق المثلث في السنتر */
+}
+.services-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* الجزء العلوي (العنوان والنص) */
+.servcies-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.traingles {
+    width: 69.46px;
+    height: 79.69px;
+    flex-shrink: 0;
+}
+.services-title {
+    font-family: 'Graphik', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 39.82px;
+    line-height: 46.46px;
+    color: #FFFFFF;
+    text-align: center; /* Centers the text lines */
+    flex: 1; /* Allows it to take up middle space evenly */
+    margin: 0;
+}
+.close-icon {
+   
+    color: rgba(255, 255, 255, 0.7);
+     transform: rotate(23.64deg);
+     width: 27.874994366701962;
+    height: 27.874994366701962;
+    top: 1368.62px;
+    left: 836.27px;
+    angle: 31.42 deg;
+    opacity: 1;
+
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 100%;
+    max-width: 796.29px; /* العرض المطابق لقياسات الفيغما الكلية للـ Group */
+    margin: 0 auto;
+    max-height: 414.14px;
+    height: 100%;
+}
+
+/* تصميم الكارت الواحد */
+.service-card {
+    background-color: transparent;
+    padding: 25px 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    width: 254.86px;
+    height: 199.11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* حاوية الأيقونة المصغرة */
+.service-icon {
+    width: 45.7px;
+    height: 45.7px;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-icon img {
+    width: 28px;
+    height: 28px;
+   
+}
+
+/* عنوان الخدمة داخل الكارت */
+.service-name {
+    font-family: 'Graphik', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+/* وصف الخدمة داخل الكارت */
+.service-desc {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+/* --- إعدادات سيكشن البورتفوليو --- */
+.portfolio-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* رأس السيكشن (العنوان على اليسار حسب تصميم الفيغما) */
+.portfolio-header {
+    text-align: left; /* محاذاة العنوان لليسار */
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 796.29px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-title {
+    font-family: 'Graphik', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38.49px; /* مطابقة لقياس Figma */
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* شبكة الصور (3 أعمدة) */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; /* مسافة متناسقة بين الصور */
+    width: 100%;
+    max-width: 796.29px; /* عرض الحاوية الكلية من الفيغما */
+    margin: 0 auto;
+}
+
+/* بطاقة الصورة الواحدة */
+.portfolio-card {
+    width: 100%;
+    height: 199.77px; /* الارتفاع المطابق لقياس Figma */
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover img {
+    transform: scale(1.03); /* تأثير تومض خفيف عند مرور الماوس */
+}
+/* Makes sizes easier to predict */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #1a191b;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+/* ---------- SECTION (dark background) ---------- */
+.section {
+  padding: 100px 0 120px;
+  background:
+    radial-gradient(circle at 80% 10%, #2a2a45 0%, transparent 55%),
+    #1a191b;
+  overflow: hidden;
+}
+
+/* ---------- CONTAINER: 796 x 414, like "Group 162513" in Figma ---------- */
+.container {
+  position: relative;     /* the circles, zigzag and dots are placed inside it */
+  width: 796px;
+  height: 414px;
+  margin: 0 auto;         /* centers it on the page */
+}
+
+h1 {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* ---------- DECORATIONS ---------- */
+.circles {
+  position: absolute;
+  top: 24px;
+  right: 43px;
+  width: 46px;
+  height: 42px;
+}
+
+.circles span {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid #ffffff;
+  border-radius: 50%;
+}
+
+/* second circle sits a little lower and to the right */
+.circles span + span {
+  left: 14px;
+  top: 10px;
+}
+
+.zigzag {
+  position: absolute;
+  left: -30px;
+  top: 405px;
+  width: 63px;
+}
+
+/* ---------- CAROUSEL ---------- */
+
+/* Hide the radio buttons (they still work) */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+/* The window: same width as the container. Cards start 99px from the top. */
+.viewport {
+  width: 796px;
+  height: 278px;
+  margin-top: 49px;       /* 50px heading + 49px = 99px, like Figma */
+  overflow: hidden;       /* hides the other slides */
+}
+
+/* The strip: 3 slides x 796px = 2388px */
+.track {
+  display: flex;
+  width: 2388px;
+  transition: transform 0.5s ease;   /* smooth sliding */
+}
+
+/* One slide */
+.page {
+  position: relative;
+  flex: none;
+  width: 796px;
+  height: 278px;
+}
+
+/* Move the strip when a radio button is selected */
+#slide1:checked ~ .viewport .track { transform: translateX(0); }
+#slide2:checked ~ .viewport .track { transform: translateX(-796px); }
+#slide3:checked ~ .viewport .track { transform: translateX(-1592px); }
+
+/* ---------- CARDS: 255 x 200 each ---------- */
+.card {
+  position: absolute;
+  width: 255px;
+  height: 200px;
+  padding: 17px;
+  background: #222125;
+  border-radius: 12px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* The staggered positions (left, top) */
+.pos1 { left: 0;     top: 0; }
+.pos2 { left: 270px; top: 40px; }
+.pos3 { left: 541px; top: 78px; }
+
+/* ---------- DOTS ---------- */
+.dots {
+  position: absolute;
+  left: 50%;
+  top: 403px;
+  transform: translateX(-50%);   /* centers the dots */
+  display: flex;
+  gap: 1px;
+}
+
+/* Each dot is 6px, with extra invisible padding so it is easier to click */
+.dots label {
+  box-sizing: content-box;
+  width: 6px;
+  height: 6px;
+  padding: 8px 2px;
+  background: #34333a;
+  background-clip: content-box;  /* color only fills the 6x6 part */
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* The active dot is a wider purple pill */
+#slide1:checked ~ .dots label[for="slide1"],
+#slide2:checked ~ .dots label[for="slide2"],
+#slide3:checked ~ .dots label[for="slide3"] {
+  width: 11px;
+  background-color: #4b43d9;
+}
